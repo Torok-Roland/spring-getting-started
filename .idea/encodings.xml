@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/_1_lombok/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_1_lombok/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_2_json/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_2_json/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_3_dependency_injection/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_3_dependency_injection/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_4_spring-dependency-injection/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_4_spring-dependency-injection/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

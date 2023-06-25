@@ -13,6 +13,7 @@
         <module>_1_lombok</module>
         <module>_2_json</module>
         <module>_3_dependency_injection</module>
+        <module>_4_spring-dependency-injection</module>
     </modules>
 
     <properties>

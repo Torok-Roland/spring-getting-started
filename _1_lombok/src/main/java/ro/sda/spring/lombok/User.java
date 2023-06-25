@@ -1,4 +1,4 @@
-package ro.sda.spring;
+package ro.sda.spring.lombok;
 
 import lombok.*;
 

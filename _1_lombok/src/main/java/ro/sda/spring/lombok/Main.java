@@ -1,4 +1,4 @@
-package ro.sda.spring;
+package ro.sda.spring.lombok;
 
 public class Main {
     public static void main(String[] args) {
