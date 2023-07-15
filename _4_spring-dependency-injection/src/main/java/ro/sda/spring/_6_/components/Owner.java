@@ -5,6 +5,8 @@ import org.springframework.stereotype.Component;
 public class Owner {
     private String name;
     private Cat cat;
+    // we used constructor to inject the dependencies in this component
+
     public Owner(@Value("Messi") String name, Cat cat) {
         this.name = name;
         this.cat = cat;

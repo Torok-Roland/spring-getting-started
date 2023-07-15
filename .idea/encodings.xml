@@ -9,6 +9,12 @@
     <file url="file://$PROJECT_DIR$/_3_dependency_injection/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/_4_spring-dependency-injection/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/_4_spring-dependency-injection/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_5_hello_service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_5_hello_service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_6_spring-aop/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_6_spring-aop/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_7_spring-database-transcational/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_7_spring-database-transcational/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>
