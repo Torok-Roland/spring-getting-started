@@ -3,6 +3,7 @@ package ro.sda.spring.repository;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.stereotype.Repository;
+import org.springframework.transaction.annotation.Transactional;
 import ro.sda.spring.model.Product;
 
 import javax.annotation.PostConstruct;
@@ -40,6 +41,25 @@ public class ProductRepository {
         return jdbcTemplate.query(sql, new ProductRowMapper());
     }
 
+    public void addProductWithoutTX(Product p1, Product p2){
+        addProduct(p1);
+        if(p2.getName().equals("wrong")){
+            throw new RuntimeException("something went wrong!");
+        }
+        addProduct(p2);
+    }
+
+    // database.setAutoCommit(false)
+    @Transactional
+    public void addProductsWithTransaction(Product p1, Product p2){
+        addProduct(p1);
+        if(p2.getName().equals("wrong")){
+            throw new RuntimeException("something went wrong!");
+        }
+        addProduct(p2);
+    }
+    // catch (Exception) --> database.rollback()
+    // everything fine --> database.commit()
 
     static class ProductRowMapper implements RowMapper<Product>{
         @Override
